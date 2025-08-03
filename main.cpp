@@ -23,7 +23,7 @@ public:
     }
     Node() {}
     ~Node() {
-        delete head;
+       
     }
 };
 Node* Node::head = NULL;
